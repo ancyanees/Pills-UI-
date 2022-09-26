@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pillscart</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="fa/css/all.min.css">
+	</head>
+	<body>	
+		
+<!-------------------------------------------- starts header section ------------------------------------------>	<section>
+		<section>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-clr b-3">
+                <div class="flex-row d-flex">
+                    
+                    <img src="img/pills1.JPG" class="img-fluid w-25 image">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="collapsingNavbar">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-light font-weight-bolder h5" href=""><i class="fas fa-sign-out-alt"></i><span class="ml-2">Logout</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="mt-2">
+            <div class="container-fluid bg-colour" id="main">
+                <div class="row row-offcanvas row-offcanvas-left">
+                    <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-colr vh-100 pl-0" id="sidebar" role="navigation">
+                        <ul class="nav flex-column sticky-top pl-0 pt-5 mt-4">
+                            <li class="nav-item">
+                            <div> <a class="nav-link text-light fontsize ml-3" href="#">SHOPS</a></div>
+                                    <div class="font  ml-3"><a class="nav-link  small text-light" href="#">View Shops</a></div>
+                                    <div class="ml-3 font bg-light mt-2"><a class="nav-link small font colr" href="#">Shop Request 
+                                    <!--- <span class="temp">5</span>-->
+                                        </a>
+                                    </div>
+                            </li>
+                            <li class="nav-item mt-3">
+                                <div><a class="nav-link text-light fontsize ml-3" href="#">DELIVERY BOY</a></div>
+                                    <div class="font ml-3"><a class="nav-link  small text-light" href="#">View Deliveryboy</a></div>
+                                    <div class="ml-3"><a class="nav-link text-light small font" href="#">Delivery boy Request</a></div>
+                            </li>
+                            <li class="nav-item mt-3">
+                                <div><a class="nav-link text-light fontsize ml-3" href="#">USERS</a></div>
+                                    <div class="font ml-3"><a class="nav-link  small text-light" href="#">View users</a></div>
+                                
+                            </li>
+                            <li class="nav-item mt-3">
+                            <div><a class="nav-link text-light fontsize ml-3" href="#">ORDERS</a></div> 
+                                    <div class="font ml-3"><a class="nav-link  small text-light" href="#">View users</a></div>
+                                    
+                            </li>
+                            <li class="nav-item mt-3">
+                                <div><a class="nav-link text-light fontsize ml-3" href="#">STATUS</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                
+            
+        <!--/col-->
+
+                <div class="col main pt-5 mt-3">
+                    <div class="row mb-3"></div>
+            <!--/row-->
+                
+                    
+                    <div class="row mt-4 mt-5 py-5">
+                        <div class="col-sm-2 col-2"></div>
+                        <div class="col-sm-8 col-8">
+                            <form class="small">
+                            
+                                <div class="form-group row">
+                                    <label for="shopname" class="col-sm-4 col-form-label font-weight-bolder">Shop Name</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="**************************************************"> 
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="address" class="col-sm-4 col-form-label  font-weight-bolder">Address</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="phone" class="col-sm-4 col-form-label  font-weight-bolder">Phone Number</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="upiid" class="col-sm-4 col-form-label font-weight-bolder">UPI ID</label>
+                                    <div class="col-sm-8">
+                                        <input type="password" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-sm-4 col-form-label font-weight-bolder">Email ID</label>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="googlemap" class="col-sm-4 col-form-label font-weight-bolder">Google Map Link</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="googlemap" class="col-sm-4 col-form-label font-weight-bolder">Google Map Link</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="**************************************************">
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button type="button" class="btn bg-colr text-light btn-sm small float-right font-weight-bolder">
+                                        Accept Request
+                                    </button>
+                                   
+                                </div>
+                            </form> 
+                        </div>
+                        <div class="col-2 col-sm-2">
+
+                        </div>
+                    </div>
+                
+        <!--/main col-->
+        </div>
+
+    </div>
+<!--/.container-->
+
+
+</section>
+
+          
+              
+                
+               
+               
+            
+               
+
+<!-------------------------------------------- ends section ------------------------------------------>	
+
+		
+
+
+
+			
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

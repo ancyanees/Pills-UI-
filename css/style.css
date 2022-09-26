@@ -1,0 +1,176 @@
+		/* Theme-Name:Pills Cart */
+		/* author: Ancy A */
+		/* Date:04/01/2020 */
+
+
+/* -------------------------------------------------------------starts admin page1-------------------------------- */
+
+			
+                        body, html {
+                    height:100%;
+                  }
+
+                  .bg-clr{
+                    background-color: #009789;
+                  }
+                  .image{
+                    width:  250px !important;
+                    height: 60px;
+                    
+                  }
+
+                  .fontsize{
+                    font-size: 16px;
+                  }
+                  .bg-colour{
+                    background-color: #E3E3E3;
+                  }
+
+                  .bg-colr{
+                    background-color: #009789;
+                  }
+                  .font{
+                    margin-top: -10px;
+                    width: 209px;
+                    
+                    
+                  }
+                  .shape{
+                    border-radius: 20px;
+                    background-color: #E3E3E3;
+                    /*width: 25% !important;*/
+                  }
+
+                  .colr{
+                    color: #009789;
+                  }
+
+
+                  .temp{
+                    background: white;
+                    border-radius: 50% !important;
+                    padding: 4px;
+                    margin-left: 83px;
+                    
+                    
+                    color: #009789;
+                  }
+                  .bg-cl{
+                    background-color:#E3E3E3;
+
+
+                    
+/* -------------------------------------------------------------ends admin page1--------------------------------*/
+                  }
+     /*media query*/
+
+/*
+@media screen and (max-width: 992px) {
+
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -33%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 33%;
+    margin-left: -6px;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    height: 100%;
+  }
+}
+
+/*
+ * Off Canvas wider at sm breakpoint
+ * --------------------------------------------------
+ *//*
+@media screen and (max-width: 34em) {
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -45%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 45%;
+    margin-left: -6px;
+  }
+  
+  .sidebar-offcanvas {
+    width: 45%;
+  }
+}
+
+*/
+
+/* -----------------------------------starts adminpage2--------------------*/
+
+              .btn-color{
+                background: white;
+                
+              }
+              .btn-colr{
+                background: red;
+                
+              }
+
+/*------------------------------------ends adminpage2-----------------------*/
+
+/*----------------------------------starts adminpage6-------------------------*/
+
+                .imagesize{
+                  width: 130px !important;
+                  height: 180px !important;
+                }
+/*-----------------------------------ends adminpage6--------------------------*/
+
+
+/* table */
+.tabedit tr:nth-child(odd) {
+  background-color: white !important;
+}
+.edit tr:nth-child(even){
+  background-color: white !important;
+}
+.celledit tr td:only-child{
+  background-color: #E3E3E3;
+}
+.tedit tr:nth-child(even){
+  background-color: white;
+
+}
+.tedit tr:nth-child(odd){
+  background-color: white;
+
+}
+
+
+
+/*----------------------------------------starts admin11-----------------------------*/
+
+        .bg-set{
+          background: white;
+          width: 50px !important;
+          height: 40px !important;
+        }
+/*----------------------------------------ends admin11-------------------------------*/
+
+/*-------------------------------------starts admin12----------------------------------*/
+
+
+          .padd{
+            margin-top: -20px;
+          }
+          
+/*-------------------------------------ends admin12------------------------------------*/
